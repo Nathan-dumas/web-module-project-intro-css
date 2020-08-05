@@ -30,8 +30,6 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1;
-    width: 1000px;
-    margin: 0 auto;
     font-family: 'Roboto Mono', monospace;
 }
 ol, ul {
@@ -57,20 +55,24 @@ section {
 }
 /* END RESET */
 /* NAV SECTION */
+.big-container {
+    width: 1000px;
+    margin: 0 auto;
+}
 a {
     text-decoration: none;
     font-size: 1.4rem;
     color: white;
 }
-nav {
+header nav {
     width: 75%;
     margin: 1% auto;
     padding: 1%;
 }
-.links {
+header .links {
     text-align: center;
 }
-.plan {
+header .plan {
     width: 17%;
     display: inline-block;
     border: 1px;
@@ -78,7 +80,7 @@ nav {
     padding: 1% 2%;
     border-radius: 10px;
 }
-.learn {
+header .learn {
     margin: 0 20%;
     width: 17%;
     display: inline-block;
@@ -88,7 +90,7 @@ nav {
     border-radius: 10px;
 
 }
-.involved {
+header .involved {
     width: 16%;
     display: inline-block;
     border: 1px;
@@ -146,6 +148,9 @@ h1 {
     margin: 1% auto;
     text-align: center;
 }
+span {
+    font-weight: bolder;
+}
 .car {
     display: block;
     width: 50%;
@@ -157,7 +162,73 @@ h1 {
     text-align: center;
 }
 footer img {
-    width: 100vw;
-    margin-left: -38.1%;
-    height: 25vh;
+    min-width: 100%;
+    height: 40vh;
 }
+footer {
+    background: #F9E7DC;
+}
+footer nav {
+    width: 75%;
+    margin: 0 auto;
+    padding: 1%;
+}
+footer .links {
+    text-align: center;
+}
+footer .plan {
+    width: 10%;
+    display: inline-block;
+    border: 1px;
+    padding: 1% 2%;
+    border-radius: 10px;
+    background: #FF764E;
+}
+footer .learn{
+    width: 10%;
+    display: inline-block;
+    margin: 0 20%;
+    background: #5ED3EB;
+    padding: 1% 1%;
+    border-radius: 10px;
+}
+footer .involved{
+    width: 9%;
+    display: inline-block;
+    background: #FFCD69;
+    padding: 1% 1%;
+    border-radius: 10px;
+}
+/* header nav {
+    width: 75%;
+    margin: 1% auto;
+    padding: 1%;
+}
+header .links {
+    text-align: center;
+}
+header .plan {
+    width: 17%;
+    display: inline-block;
+    border: 1px;
+    background: #FF764E;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+header .learn {
+    margin: 0 20%;
+    width: 17%;
+    display: inline-block;
+    border: 1px;
+    background: #5ED3EB;
+    padding: 1% 2%;
+    border-radius: 10px;
+header .involved {
+    width: 16%;
+    display: inline-block;
+    border: 1px;
+    background: #FFCD69;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+} */
